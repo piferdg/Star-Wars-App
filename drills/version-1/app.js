@@ -1,10 +1,10 @@
 const starFilmsAPI = ('https://swapi.co/api/films')
-const phantomAPI = ('http://omdbapi.com/?t=star+wars%3A+episode+I&apikey=ef242b2a') 
-const clonesAPI = ('http://omdbapi.com/?t=star+wars%3A+episode+II&apikey=ef242b2a') 
-const sithAPI = ('http://omdbapi.com/?t=star+wars%3A+episode+III&apikey=ef242b2a') 
-const hopeAPI = ('http://omdbapi.com/?t=star+wars%3A+episode+IV&apikey=ef242b2a') 
-const empireAPI = ('http://omdbapi.com/?t=star+wars%3A+Episode+V&apikey=ef242b2a')
-const jediAPI = ('http://omdbapi.com/?t=star+wars%3A+Episode+VI&apikey=ef242b2a') 
+const phantomAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+I&apikey=ef242b2a') 
+const clonesAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+II&apikey=ef242b2a') 
+const sithAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+III&apikey=ef242b2a') 
+const hopeAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+IV&apikey=ef242b2a') 
+const empireAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+Episode+V&apikey=ef242b2a')
+const jediAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+Episode+VI&apikey=ef242b2a') 
 
 let movies = document.getElementsByClassName('movie-list')[0]
 
