@@ -4,7 +4,7 @@ const clonesAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=st
 const sithAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+III&apikey=ef242b2a') 
 const hopeAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+IV&apikey=ef242b2a') 
 const empireAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+Episode+V&apikey=ef242b2a')
-const jediAPI = ('https://omdbapi.com/?t=star+wars%3A+Episode+VI&apikey=ef242b2a') 
+const jediAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+Episode+VI&apikey=ef242b2a') 
 
 let movies = document.getElementsByClassName('movie-list')[0]
 
