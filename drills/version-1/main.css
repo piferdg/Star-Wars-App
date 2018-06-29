@@ -1,26 +1,61 @@
+body {
+  background: url(assets/DeathStarAndShip.jpg);
+  background-repeat: no-repeat;
+  background-size: 120%
+}
+
 .main-title {
   display: flex;
   justify-content: center;
 }
 
-.logo {
+.logo, .brochure-logo{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+/* .brochure-logo img, .logo img {
+  padding-bottom: 20px;
+} */
+
+a {
+  color: rgb(255, 233, 0);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.app-link {
+  padding-top: 50px;
   text-align: center;
 }
 
-.main-title h1 {
-  font-size: 70px;
-  font-family: 'Kanit', sans-serif;
-  color: rgb(255, 233, 0);
-  padding-bottom: 15px;
-  line-height:46px;
+.back-link {
+  position: absolute;
+  top: 30px;
+  padding-left: 30px;
 }
 
-.main-title p{
+.main-title p, .brochure-logo p{
   font-size: 25px;
   font-family: 'Kanit', sans-serif;
   color: rgb(255, 233, 0);
-  padding-bottom: 20px;
   font-style: italic;
+  padding-top: 10px;
+}
+
+.brochure-text p{
+  color: rgb(0, 202, 228);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 210px
+
+}
+
+.brochure-text {
+  color: rgb(255, 233, 0);
+  text-align: center;
 }
 
 #movies {
@@ -30,22 +65,24 @@
 .movie-list {
   display: flex;
   justify-content: space-around;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
-/* button {
-  background-color: ;
-} */
+button {
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  background-color: rgb(0, 202, 228);
+}
 
 #posters {
   display: flex;
   justify-content: center;
   flex-flow: wrap;
-  padding-top: 25px;
+  padding: 10px;
 }
 
-
-/* Background */
+/* starwars.html Background */
 #space {
   background: #1A0000;
   width: 100%;
