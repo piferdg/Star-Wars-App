@@ -99,7 +99,6 @@ function changePoster(event) {
         jediPoster(jediJSON)
         })
     }
-
 }
 
 function phantomPoster(phantomJSON) {

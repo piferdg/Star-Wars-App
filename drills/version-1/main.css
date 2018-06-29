@@ -15,10 +15,6 @@ body {
   padding-bottom: 15px;
 }
 
-/* .brochure-logo img, .logo img {
-  padding-bottom: 20px;
-} */
-
 a {
   color: rgb(255, 233, 0);
   font-family: 'Montserrat', sans-serif;
@@ -83,6 +79,7 @@ button {
 }
 
 /* starwars.html Background */
+
 #space {
   background: #1A0000;
   width: 100%;
