@@ -1,10 +1,10 @@
 const starFilmsAPI = ('https://swapi.co/api/films')
-const phantomAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+I&apikey=ef242b2a') 
-const clonesAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+II&apikey=ef242b2a') 
-const sithAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+III&apikey=ef242b2a') 
-const hopeAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+episode+IV&apikey=ef242b2a') 
-const empireAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+Episode+V&apikey=ef242b2a')
-const jediAPI = ('https://cors-anywhere.herokuapp.com/http://omdbapi.com/?t=star+wars%3A+Episode+VI&apikey=ef242b2a') 
+const phantomAPI = ('https://omdbapi.com/?t=star+wars%3A+episode+I&apikey=ef242b2a') 
+const clonesAPI = ('https://omdbapi.com/?t=star+wars%3A+episode+II&apikey=ef242b2a') 
+const sithAPI = ('https://omdbapi.com/?t=star+wars%3A+episode+III&apikey=ef242b2a') 
+const hopeAPI = ('https://omdbapi.com/?t=star+wars%3A+episode+IV&apikey=ef242b2a') 
+const empireAPI = ('https://omdbapi.com/?t=star+wars%3A+Episode+V&apikey=ef242b2a')
+const jediAPI = ('https://omdbapi.com/?t=star+wars%3A+Episode+VI&apikey=ef242b2a')  
 
 let movies = document.getElementsByClassName('movie-list')[0]
 
@@ -57,6 +57,7 @@ function starWarsFilms(filmJSON) {
 }
 
 function changePoster(event) {
+    console.log('EVENT', event)
     if (event.target.textContent === 'The Phantom Menace') {
         fetch (phantomAPI)
         .then (response => response.json())
@@ -150,6 +151,7 @@ function jediPoster(jediJSON) {
     moviePoster.setAttribute('src', poster)
     posters.appendChild(moviePoster) 
 }
+
 
 
 
