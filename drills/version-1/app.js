@@ -102,8 +102,9 @@ function changePoster(event) {
     }
 }
 
+let moviePoster = document.createElement('img')
+
 function phantomPoster(phantomJSON) {
-    let moviePoster = document.createElement('img')
     let poster = phantomJSON.Poster
     let posters = document.getElementById('posters')
 
@@ -112,7 +113,6 @@ function phantomPoster(phantomJSON) {
 }
 
 function clonePoster(cloneJSON) {
-    let moviePoster = document.createElement('img')
     let poster = cloneJSON.Poster
     let posters = document.getElementById('posters')
 
@@ -120,7 +120,6 @@ function clonePoster(cloneJSON) {
     posters.appendChild(moviePoster) 
 }
 function sithPoster(sithJSON) {
-    let moviePoster = document.createElement('img')
     let poster = sithJSON.Poster
     let posters = document.getElementById('posters')
 
@@ -128,7 +127,6 @@ function sithPoster(sithJSON) {
     posters.appendChild(moviePoster) 
 }
 function hopePoster(hopeJSON) {
-    let moviePoster = document.createElement('img')
     let poster = hopeJSON.Poster
     let posters = document.getElementById('posters')
 
@@ -136,7 +134,6 @@ function hopePoster(hopeJSON) {
     posters.appendChild(moviePoster) 
 }
 function empirePoster(empireJSON) {
-    let moviePoster = document.createElement('img')
     let poster = empireJSON.Poster
     let posters = document.getElementById('posters')
 
@@ -144,7 +141,6 @@ function empirePoster(empireJSON) {
     posters.appendChild(moviePoster) 
 }
 function jediPoster(jediJSON) {
-    let moviePoster = document.createElement('img')
     let poster = jediJSON.Poster
     let posters = document.getElementById('posters')
 
