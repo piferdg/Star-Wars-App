@@ -7,7 +7,7 @@
   - This app is built with vanilla JavaScript and uses two API's to return data.
 
 ## Deployed link:
-https://star-wars-posters.firebaseapp.com/starwars.html
+https://star-wars-posters.firebaseapp.com/index.html
 
 ## API's used
   - swapi.co
